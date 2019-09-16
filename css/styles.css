@@ -1,3 +1,58 @@
+body {
+  background: #ebedf3; }
+
+.topo {
+  background: #FFDB4C;
+  height: 600px;
+  padding-top: 50px;
+  background: url(../img/bg_topo.png) no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  background-color: #FFDB4C; }
+
+.btn-twitter {
+  color: #1da1f2; }
+  .btn-twitter:hover {
+    color: #1da1f2; }
+
+.btn-instagram {
+  color: #dc2878; }
+  .btn-instagram:hover {
+    color: #dc2878; }
+
+.btn-youtube {
+  color: #cd201f; }
+  .btn-youtube:hover {
+    color: #cd201f; }
+
+.card {
+  border: none !important;
+  -webkit-box-shadow: -2px 2px 9px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -2px 2px 9px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 2px 9px 0px rgba(0, 0, 0, 0.2); }
+
+.instagram .card-body .card-title, .youtube .card-body .card-title, .twitter .card-body .card-title {
+  font-family: 'Inter';
+  font-weight: 600;
+  color: #33365d;
+  font-size: 18px;
+  margin-bottom: 0; }
+
+.instagram .card-body span, .youtube .card-body span, .twitter .card-body span {
+  font-family: 'Inter';
+  font-weight: normal;
+  color: #33365d;
+  font-size: 14px; }
+
+.instagram .card-body .card-text, .youtube .card-body .card-text, .twitter .card-body .card-text {
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 16px;
+  color: #33365d; }
+  .instagram .card-body .card-text b, .youtube .card-body .card-text b, .twitter .card-body .card-text b {
+    font-family: 'Inter';
+    font-weight: bold; }
+
 @font-face {
   font-family: 'Inter';
   src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
@@ -42,15 +97,3 @@
     font-family: 'Inter';
     font-weight: bold;
     font-style: normal; }
-
-body {
-  background: #ebedf3; }
-
-.topo {
-  background: #FFDB4C;
-  height: 600px;
-  padding-top: 50px;
-  background: url(../img/bg_topo.png) no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  background-color: #FFDB4C; }
