@@ -52,6 +52,16 @@ body {
   .instagram .card-body .card-text b, .youtube .card-body .card-text b, .twitter .card-body .card-text b {
     font-family: 'Inter';
     font-weight: bold; }
+  .instagram .card-body .card-text .vermais, .youtube .card-body .card-text .vermais, .twitter .card-body .card-text .vermais {
+    background: #ebedf3;
+    color: #33365d;
+    border-radius: 10px;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: normal; }
+    .instagram .card-body .card-text .vermais:hover, .youtube .card-body .card-text .vermais:hover, .twitter .card-body .card-text .vermais:hover {
+      background: #FFDB4C;
+      color: #33365d; }
 
 @font-face {
   font-family: 'Inter';

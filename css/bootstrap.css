@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --instagram: #fdf4f8;
+  --instagram: #fbe9f1;
   --twitter: #e8f5fe;
   --youtube: #fae8e8;
   --primary: #007bff;
@@ -29,7 +29,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-  --instagram: #fdf4f8;
+  --instagram: #fbe9f1;
   --twitter: #e8f5fe;
   --youtube: #fae8e8;
   --breakpoint-xs: 0;
@@ -1215,19 +1215,19 @@ pre {
 .table-instagram,
 .table-instagram > th,
 .table-instagram > td {
-  background-color: #fefcfd; }
+  background-color: #fef9fb; }
 
 .table-instagram th,
 .table-instagram td,
 .table-instagram thead th,
 .table-instagram tbody + tbody {
-  border-color: #fef9fb; }
+  border-color: #fdf4f8; }
 
 .table-hover .table-instagram:hover {
-  background-color: #f8e9f0; }
+  background-color: #fae3ec; }
   .table-hover .table-instagram:hover > td,
   .table-hover .table-instagram:hover > th {
-    background-color: #f8e9f0; }
+    background-color: #fae3ec; }
 
 .table-twitter,
 .table-twitter > th,
@@ -1937,26 +1937,26 @@ fieldset:disabled a.btn {
 
 .btn-instagram {
   color: #212529;
-  background-color: #fdf4f8;
-  border-color: #fdf4f8; }
+  background-color: #fbe9f1;
+  border-color: #fbe9f1; }
   .btn-instagram:hover {
     color: #212529;
-    background-color: #f7d4e3;
-    border-color: #f5c9dd; }
+    background-color: #f5c9dc;
+    border-color: #f3bed6; }
   .btn-instagram:focus, .btn-instagram.focus {
-    box-shadow: 0 0 0 0.2rem rgba(220, 213, 217, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(218, 204, 211, 0.5); }
   .btn-instagram.disabled, .btn-instagram:disabled {
     color: #212529;
-    background-color: #fdf4f8;
-    border-color: #fdf4f8; }
+    background-color: #fbe9f1;
+    border-color: #fbe9f1; }
   .btn-instagram:not(:disabled):not(.disabled):active, .btn-instagram:not(:disabled):not(.disabled).active,
   .show > .btn-instagram.dropdown-toggle {
     color: #212529;
-    background-color: #f5c9dd;
-    border-color: #f3bed6; }
+    background-color: #f3bed6;
+    border-color: #f1b3cf; }
     .btn-instagram:not(:disabled):not(.disabled):active:focus, .btn-instagram:not(:disabled):not(.disabled).active:focus,
     .show > .btn-instagram.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(220, 213, 217, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(218, 204, 211, 0.5); }
 
 .btn-twitter {
   color: #212529;
@@ -2173,25 +2173,25 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
 
 .btn-outline-instagram {
-  color: #fdf4f8;
-  border-color: #fdf4f8; }
+  color: #fbe9f1;
+  border-color: #fbe9f1; }
   .btn-outline-instagram:hover {
     color: #212529;
-    background-color: #fdf4f8;
-    border-color: #fdf4f8; }
+    background-color: #fbe9f1;
+    border-color: #fbe9f1; }
   .btn-outline-instagram:focus, .btn-outline-instagram.focus {
-    box-shadow: 0 0 0 0.2rem rgba(253, 244, 248, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(251, 233, 241, 0.5); }
   .btn-outline-instagram.disabled, .btn-outline-instagram:disabled {
-    color: #fdf4f8;
+    color: #fbe9f1;
     background-color: transparent; }
   .btn-outline-instagram:not(:disabled):not(.disabled):active, .btn-outline-instagram:not(:disabled):not(.disabled).active,
   .show > .btn-outline-instagram.dropdown-toggle {
     color: #212529;
-    background-color: #fdf4f8;
-    border-color: #fdf4f8; }
+    background-color: #fbe9f1;
+    border-color: #fbe9f1; }
     .btn-outline-instagram:not(:disabled):not(.disabled):active:focus, .btn-outline-instagram:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-instagram.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(253, 244, 248, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(251, 233, 241, 0.5); }
 
 .btn-outline-twitter {
   color: #e8f5fe;
@@ -3750,13 +3750,13 @@ input[type="button"].btn-block {
 
 .badge-instagram {
   color: #212529;
-  background-color: #fdf4f8; }
+  background-color: #fbe9f1; }
   a.badge-instagram:hover, a.badge-instagram:focus {
     color: #212529;
-    background-color: #f5c9dd; }
+    background-color: #f3bed6; }
   a.badge-instagram:focus, a.badge-instagram.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(253, 244, 248, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(251, 233, 241, 0.5); }
 
 .badge-twitter {
   color: #212529;
@@ -3887,13 +3887,13 @@ input[type="button"].btn-block {
     color: #040505; }
 
 .alert-instagram {
-  color: #847f81;
-  background-color: #fffdfe;
-  border-color: #fefcfd; }
+  color: #83797d;
+  background-color: #fefbfc;
+  border-color: #fef9fb; }
   .alert-instagram hr {
-    border-top-color: #f8e9f0; }
+    border-top-color: #fae3ec; }
   .alert-instagram .alert-link {
-    color: #6a6668; }
+    color: #686164; }
 
 .alert-twitter {
   color: #797f84;
@@ -4182,15 +4182,15 @@ input[type="button"].btn-block {
     border-color: #1b1e21; }
 
 .list-group-item-instagram {
-  color: #847f81;
-  background-color: #fefcfd; }
+  color: #83797d;
+  background-color: #fef9fb; }
   .list-group-item-instagram.list-group-item-action:hover, .list-group-item-instagram.list-group-item-action:focus {
-    color: #847f81;
-    background-color: #f8e9f0; }
+    color: #83797d;
+    background-color: #fae3ec; }
   .list-group-item-instagram.list-group-item-action.active {
     color: #fff;
-    background-color: #847f81;
-    border-color: #847f81; }
+    background-color: #83797d;
+    border-color: #83797d; }
 
 .list-group-item-twitter {
   color: #797f84;
@@ -4897,12 +4897,12 @@ button.bg-dark:focus {
   background-color: #1d2124 !important; }
 
 .bg-instagram {
-  background-color: #fdf4f8 !important; }
+  background-color: #fbe9f1 !important; }
 
 a.bg-instagram:hover, a.bg-instagram:focus,
 button.bg-instagram:hover,
 button.bg-instagram:focus {
-  background-color: #f5c9dd !important; }
+  background-color: #f3bed6 !important; }
 
 .bg-twitter {
   background-color: #e8f5fe !important; }
@@ -4981,7 +4981,7 @@ button.bg-youtube:focus {
   border-color: #343a40 !important; }
 
 .border-instagram {
-  border-color: #fdf4f8 !important; }
+  border-color: #fbe9f1 !important; }
 
 .border-twitter {
   border-color: #e8f5fe !important; }
@@ -7240,10 +7240,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #121416 !important; }
 
 .text-instagram {
-  color: #fdf4f8 !important; }
+  color: #fbe9f1 !important; }
 
 a.text-instagram:hover, a.text-instagram:focus {
-  color: #f1b3cf !important; }
+  color: #efa8c8 !important; }
 
 .text-twitter {
   color: #e8f5fe !important; }
