@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/aos.css">
 
     <title>Curso Bootstrap-04!</title>
 </head>
@@ -16,8 +17,8 @@
 <body>
     <div class="topo">
         <div class="container">
-            <h1>Obrigado por tornar nosso <br> <b>MOSAICO</b> mais <b>DIVERSO</b> e <b>DEMOCRÁTICO!</b></h1>
-            <h2>Nossa ação começou no dia 13 de setembro, mas não pode acabar. <br> Faça parte deste mosaico! Use
+            <h1 data-aos="fade-up">Obrigado por tornar nosso <br> <b>MOSAICO</b> mais <b>DIVERSO</b> e <b>DEMOCRÁTICO!</b></h1>
+            <h2 data-aos="fade-up" data-aos-delay="200">Nossa ação começou no dia 13 de setembro, mas não pode acabar. <br> Faça parte deste mosaico! Use
                 <b>#DemocraciaTodoDia</b> em sua vida.
             </h2>
         </div>
@@ -25,7 +26,8 @@
 
     <div class="container">
         <div class="card-columns">
-            <div class="card instagram">
+            
+            <div data-aos="fade-up" class="card instagram">
                 <img src="img/img_1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <div class="row">
@@ -48,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="card twitter">
+            <div data-aos="fade-up"   class="card twitter">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-2">
@@ -68,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="card twitter">
+            <div data-aos="fade-up"  class="card twitter">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-2">
@@ -91,7 +93,7 @@
             </div>
 
 
-            <div class="card instagram">
+            <div data-aos="fade-up" class="card instagram">
                 <img src="img/img_1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <div class="row">
@@ -115,7 +117,7 @@
             </div>
 
 
-            <div class="card youtube">
+            <div  data-aos="fade-up" class="card youtube">
                 <img src="img/video.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Acompanhe ao vivo Sessão Plenária do dia 12 de setembro de 2019 </h5>
@@ -125,7 +127,7 @@
             </div>
 
 
-            <div class="card twitter">
+            <div  data-aos="fade-up" class="card twitter">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-2">
@@ -146,11 +148,16 @@
         </div>
     </div>
 
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+            AOS.init();
+          </script>
 </body>
 
 </html>
